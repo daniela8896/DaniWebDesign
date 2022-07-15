@@ -1,0 +1,52 @@
+.experiencia-contenedor{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
+	height: 30vh;
+	margin-bottom: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid1{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.grid1{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.grid1{
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.experiencia-principal{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.experiencia-principal>img{
+	width: 25rem;
+	height: 25rem;
+	
+}
+.experiencia-principal>img:nth-child(2){
+	width: 40rem;
+	height: 40rem;
+	top: -5rem;
+	left: -8rem;
+	position: absolute;
+}
+
+.experiencia-principal span{
+	position: absolute;
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+}

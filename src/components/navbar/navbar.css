@@ -1,0 +1,51 @@
+.nav-contenedor{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-izquierda{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.nav-nombre{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-nombre>img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-derecha{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.nav-lista{
+    flex: 10;
+}
+.nav-lista>ul{
+    display: flex;
+    gap: 1.5rem;
+    /* margin-right: 2rem; */
+    list-style: none;
+}
+.nav-lista>ul >li{
+    font-size: .8rem;
+}
+
+.nav-lista>ul >li:hover{
+    cursor: pointer;
+    color: var(--violet);
+}
+
+.nav-btn{
+    flex: 2;
+}

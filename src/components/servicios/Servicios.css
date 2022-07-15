@@ -1,0 +1,57 @@
+.servicios-contenedor{
+	padding: 0 3rem 0 3rem;
+	display: flex;
+	height: 90vh;
+	margin-bottom: 8rem;
+	margin-top: 9rem;
+	margin-bottom: 13rem;
+}
+
+.servicios-title{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.servicios-title>:nth-child(1){
+	color: var(--black);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.servicios-title>:nth-child(2){
+	color: var(--rosa);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.servicios-title>:nth-child(3){
+	color: var(--gray);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.btn-s{
+	width: 7rem;
+	height: 1rem;
+	margin-top: 1rem;
+	text-decoration: none;
+}
+
+.cards{
+	position: relative;
+}
+
+.cards>*{
+	position: absolute;
+}
+
+.s-blur{
+	top: 20rem;
+	left: -18rem;
+}
+
+.s-blur2{
+	top: 14rem;
+	left: 8rem;
+}
