@@ -10,7 +10,7 @@
     --celeste: #B4FEE7;
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --violetCard: rgba(161, 106, 232, 0.42);
-    --boxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
 .App{

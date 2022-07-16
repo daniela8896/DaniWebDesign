@@ -1,14 +1,14 @@
-.trabajos-contenedor{
+.clientes-contenedor{
 	padding: 0 3rem 0 3rem;
 	display: flex;
 	height: 90vh;
 	margin-top: 4rem;
 }
 
-.trabajos-derecho{
+.clientes-derecho{
 	position: relative;
 }
-.trabajos-circulo-principal{
+.clientes-circulo-principal{
 	left: 9rem;
 	position: relative;
 	width: 18rem;
@@ -19,32 +19,32 @@
 	background: white;
 }
 
-.trabajos-circulo-principal>*{
+.clientes-circulo-principal>*{
 	position: absolute;
 }
 
-.trabajos-circulo-principal > :nth-child(1){
+.clientes-circulo-principal > :nth-child(1){
 	top: -3rem;
 	left: 6rem;
 }
-.trabajos-circulo-principal > :nth-child(2){
+.clientes-circulo-principal > :nth-child(2){
 	top: 5rem;
 	left: -3rem;
 }
-.trabajos-circulo-principal > :nth-child(3){
+.clientes-circulo-principal > :nth-child(3){
 	top: 5rem;
 	left: 6rem;
 }
-.trabajos-circulo-principal > :nth-child(4){
+.clientes-circulo-principal > :nth-child(4){
 	top: 5rem;
 	left: 15rem;
 }
-.trabajos-circulo-principal> :nth-child(5){
+.clientes-circulo-principal> :nth-child(5){
 	top: 13rem;
 	left: 6rem;
 }
 
-.trabajos-seccion-circulo{
+.clientes-seccion-circulo{
 	width: 6rem;
 	height: 6rem;
 	position: absolute;
@@ -58,11 +58,11 @@
 	background: white;
 }
 
-.trabajos-seccion-circulo > img{
+.clientes-seccion-circulo > img{
 	transform: scale(0.6);
 }
 
-.trabajos-relleno-circulo{
+.clientes-relleno-circulo{
 	position: absolute;
 	height: 13rem;
 	width: 13rem;

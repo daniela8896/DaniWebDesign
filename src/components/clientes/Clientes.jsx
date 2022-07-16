@@ -8,7 +8,7 @@ import img5 from '../../assets/img/Facebook.png'
 
 const Clientes = () => {
   return (
-	<section className='trabajos-contenedor'>
+	<section className='clientes-contenedor'>
         <div className="servicios-title">
           <span>¿Necesita un nuevo sitio web <br/> o una tienda online?</span>
 		  <span>¡Ningún proyecto es demasiado <br/> grande o <br/> demasiado pequeño!</span>
@@ -24,27 +24,27 @@ const Clientes = () => {
 		   <div className="blur s-blur" style={{background: "#B4FEE7"}}></div>
 	   </div>
 
-	   <div className='trabajos-derecho'>
-		<div className="trabajos-circulo-principal">
-			<div className="trabajos-seccion-circulo">
+	   <div className='clientes-derecho'>
+		<div className="clientes-circulo-principal">
+			<div className="clientes-seccion-circulo">
 				<img src={img1} alt="" />
 			</div>
-			<div className="trabajos-seccion-circulo">
+			<div className="clientes-seccion-circulo">
 				<img src={img2} alt="" />
 			</div>
-			<div className="trabajos-seccion-circulo">
+			<div className="clientes-seccion-circulo">
 				<img src={img3} alt="" />
 			</div>
-			<div className="trabajos-seccion-circulo">
+			<div className="clientes-seccion-circulo">
 				<img src={img4} alt="" />
 			</div>
-			<div className="trabajos-seccion-circulo">
+			<div className="clientes-seccion-circulo">
 				<img src={img5} alt="" />
 			</div>
 		</div>
 
-        <div className="trabajos-relleno-circulo circulo-morado"></div>
-		<div className="trabajos-relleno-circulo circulo-celeste"></div>
+        <div className="clientes-relleno-circulo circulo-morado"></div>
+		<div className="clientes-relleno-circulo circulo-celeste"></div>
 
 	   </div>
 

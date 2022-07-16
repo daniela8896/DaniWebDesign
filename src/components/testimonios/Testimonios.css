@@ -1,0 +1,68 @@
+.testimonio-contenedor{
+	padding: 0px 3px 0px 3px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 7rem;
+	flex-direction: column;
+	gap: 2rem;
+	position: relative;
+}
+
+.testimonio-encabezado{
+	align-self: start;
+}
+.testimonio-encabezado>*{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+.testimonio-encabezado span:nth-of-type(2){
+	color: var(--rosa);
+}
+
+.t-blur1{
+	left: 38rem;
+	top: 16rem;
+}
+
+.t-blur2{
+	top: 9rem;
+	left: 0;
+}
+
+.testimonio-map{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2rem;
+	width: 30rem;
+	height: 12rem;
+	background: rgba(255, 255, 255, 0.26);
+	border: 7px solid var(--blueCard);
+	box-shadow: var(--boxShadow);
+	border-radius: 20px;
+}
+.testimonio-map>img{
+	width: 6rem;
+	height: 6rem;
+	border-radius: 100%;
+}
+.testimonio-map>span{
+	color: var(--gray);
+}
+
+.testimonio-contenedor .swiper{
+	width: 100%;
+	height: 70%;
+}
+.testimonio-contenedor .swiper-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.testimonio-contenedor .swiper-pagination-bullet-active{
+	background: var(--rosa);
+}

@@ -1,0 +1,81 @@
+.contacto-contenedor{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+    padding-top: 3rem;
+}
+
+.contenedor-derecho{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.contenedor-derecho>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.contenedor-derecho .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--rosa);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+.c-blur2{
+		top: 9rem;
+		left: 2rem;
+}
+
+.contacto-izquierdo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+
+
+.contacto-texto span:nth-child(1){
+	color: var(--black);
+	font-size: 2rem;
+	font-weight: bold;
+}
+.contacto-texto span:nth-child(3){
+	color: var(--morado);
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor-derecho{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .contenedor-derecho .user{
+        width: 16rem;
+    }
+
+}   
