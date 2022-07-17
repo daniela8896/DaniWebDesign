@@ -55,3 +55,23 @@
 	top: 14rem;
 	left: 8rem;
 }
+
+@media screen and (max-width: 480px) {
+	.servicios-contenedor {
+	  margin-top: 0;
+	  flex-direction: column;
+	  gap: 7rem;
+	  height: 85rem;
+	  padding: 0;
+	  margin-bottom: 10rem;
+	}
+  
+	.cards {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 18rem;
+	}
+	.cards > * {
+	  position: static;
+	}
+  }

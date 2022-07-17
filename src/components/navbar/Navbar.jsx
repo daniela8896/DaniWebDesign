@@ -1,6 +1,7 @@
 import React from 'react'
 import "./navbar.css";
 import isotipo from '../../assets/img/isotipo.png'
+import Toogle from '../toogle/Toogle';
 
 const Navbar = () => {
     return (
@@ -9,10 +10,10 @@ const Navbar = () => {
                 <div className='nav-nombre'>
                     <img src={isotipo} alt="isotipo" />
                 </div>
-            <span>Cambiar</span>
+            <Toogle />
             </div>
 
-            < div className = 'nav-derecha' >
+            <div className ='nav-derecha'>
                 <div className='nav-lista'>
                     <ul>
                         <li> Inicio </li>
@@ -21,9 +22,9 @@ const Navbar = () => {
                         <li> Quien soy? </li>
                     </ul>
                 </div>
-                    <button className='boton nav-btn'>
+                    <a href='#' className='boton nav-btn'>
                         Contacto
-                    </button>
+                    </a>
                 
             
             </div>

@@ -38,7 +38,7 @@ export const Contacto = () => {
 				<input type="text" name='user_name' className='user' placeholder='Nombre'/>
 				<input type="email" name='user_email' className='user' placeholder='Correo'/>
 				<textarea name="message" className='user' placeholder='Mensaje'></textarea>
-				<input type="submit" value="send" className='button boton' />
+				<input type="submit" value="Enviar" className='button boton' />
 				<span>{done && "Gracias por ponerte en conmigo! 🥰, En pocos momentos te contactare 😊"}</span>
 				<div 
 				className="blur c-blur1"

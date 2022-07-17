@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 import './DivFlotante.css'
 
-export const DivFlotante = ({ imagen, txt1, txt2 }) => {
+
+const DivFlotante = ({ imagen, txt1, txt2 }) => {
+
+
+
 	const newLocal = <br />
     return (
 	    <div className="flotante-contenedor">
@@ -14,3 +18,5 @@ export const DivFlotante = ({ imagen, txt1, txt2 }) => {
 	    </div>
     )
 }
+
+export default DivFlotante

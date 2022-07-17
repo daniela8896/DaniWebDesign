@@ -55,7 +55,6 @@ textarea{
 }
 
 
-
 .contacto-texto span:nth-child(1){
 	color: var(--black);
 	font-size: 2rem;
@@ -68,14 +67,21 @@ textarea{
 }
 
 @media screen and (max-width: 480px) {
-    .contenedor-derecho{
+    .contacto-contenedor{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
+        gap: 1rem;
+        height: 35rem;
     }
     .contenedor-derecho .user{
         width: 16rem;
     }
+    .contenedor-derecho>form
+{
+    margin-bottom: 6rem;
+    gap: 1rem;
+  
+    
+}
 
 }   

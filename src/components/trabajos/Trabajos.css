@@ -4,8 +4,7 @@
 	justify-content: center;
 	flex-direction: column;
 	height: 70vh;
-	/* gap: 2rem; */
-	/* position: relative; */
+	
 }
 .trabajos-contenedor span:nth-child(1){
 	color: var(--black);
@@ -41,5 +40,27 @@
 
 .trabajos-contenedor .swiper-pagination-bullet-active{
 	background: var(--rosa);
+	
+}
+
+@media screen and (max-width: 480px) {
+	.trabajos-contenedor{
+		height: 60vh;
+	}
+	.trabajos-contenedor span:nth-child(1){
+		font-size: 1rem;
+	}
+	.trabajos-contenedor span:nth-child(2){
+		font-size: 2rem;
+	}
+	
+	.trabajos-contenedor-slider{
+		margin-top: 3rem;
+	}
+	
+	.trabajos-contenedor img{
+	   width: 20rem;
+	}
+	
 	
 }

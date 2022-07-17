@@ -22,3 +22,29 @@
 	display: flex;
 	gap: 2rem;
 }
+
+@media screen and (max-width: 480px){
+	.f-contenedor{
+	  transform: scale(.9);
+	}
+	.footer{
+		margin: -0.5rem -3.5rem;
+		position: relative;
+		margin-top: -5rem;
+	}
+	.f-contenedor{
+		margin-top: 5rem;
+		gap: 1rem;
+		color: var(--black);
+	}
+	.f-contenedor>span{
+		display: none;
+	}
+	.f-iconos{
+		gap: 1rem;
+		margin-bottom: 1rem;
+		font-size: 1rem;
+		
+	}
+	
+  }

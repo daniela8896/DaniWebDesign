@@ -8,7 +8,7 @@ import Whatsapp from '@iconscout/react-unicons/icons/uil-whatsapp'
 const Footer = () => {
   return (
 	<footer className='footer'>
-        <img src={wave} alt="wave" style={{width: '100%' }} />
+        <img src={wave} alt="wave" style={{width: '100%', height: '100%'}} />
 
 		<div className="f-contenedor">
 			<span>Dani Web Design</span>

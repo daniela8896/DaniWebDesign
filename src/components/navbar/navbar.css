@@ -16,8 +16,8 @@
 }
 
 .nav-nombre>img{
-    width: 60px;
-    height: 60px;
+    width: 5rem;
+    height: 5rem;
 }
 
 .nav-derecha{
@@ -34,14 +34,14 @@
 .nav-lista>ul{
     display: flex;
     gap: 1.5rem;
-    /* margin-right: 2rem; */
     list-style: none;
 }
-.nav-lista>ul >li{
-    font-size: .8rem;
+.nav-lista>ul> li {
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-.nav-lista>ul >li:hover{
+.nav-lista>ul:hover{
     cursor: pointer;
     color: var(--violet);
 }

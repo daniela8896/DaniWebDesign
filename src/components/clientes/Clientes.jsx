@@ -5,6 +5,7 @@ import img2 from '../../assets/img/fiverr.png'
 import img3 from '../../assets/img/amazon.png'
 import img4 from '../../assets/img/Shopify.png'
 import img5 from '../../assets/img/Facebook.png'
+import { motion } from "framer-motion";
 
 const Clientes = () => {
   return (
@@ -25,7 +26,12 @@ const Clientes = () => {
 	   </div>
 
 	   <div className='clientes-derecho'>
-		<div className="clientes-circulo-principal">
+		<motion.div
+		 initial={{ rotate: 45 }}
+		 whileInView={{ rotate: 0 }}
+		 viewport={{ margin: "-40px" }}
+		 transition={{ duration: 3.5, type: "spring" }}
+		className="clientes-circulo-principal">
 			<div className="clientes-seccion-circulo">
 				<img src={img1} alt="" />
 			</div>
@@ -41,7 +47,7 @@ const Clientes = () => {
 			<div className="clientes-seccion-circulo">
 				<img src={img5} alt="" />
 			</div>
-		</div>
+		</motion.div>
 
         <div className="clientes-relleno-circulo circulo-morado"></div>
 		<div className="clientes-relleno-circulo circulo-celeste"></div>

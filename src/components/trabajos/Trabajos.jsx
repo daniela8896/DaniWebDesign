@@ -21,12 +21,12 @@ const Trabajos = () => {
 	   <Swiper 
 	   modules={[Pagination]}
 	   pagination={{clickable:true}}
-	   spaceBetween={30}
+	   spaceBetween={150}
 	   slidesPerView={3}
 	   grabCursor={true}
 	   className='trabajos-contenedor-slider'
 	   >
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide>
             <img src={img1slide} alt="" />
 		  </SwiperSlide>
 		  <SwiperSlide>

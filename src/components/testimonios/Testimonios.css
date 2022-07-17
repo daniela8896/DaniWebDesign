@@ -66,3 +66,31 @@
 .testimonio-contenedor .swiper-pagination-bullet-active{
 	background: var(--rosa);
 }
+
+@media screen and (max-width: 480px){
+    .testimonio-contenedor{
+        padding: 0;
+    }
+	.testimonio-map>img{
+		width: 4rem;
+		height: 4rem;
+	}
+	.testimonio-contenedor{
+		padding: 5px 3px 5px 3px;
+		height: 160vh;
+		margin-top: 7rem;
+		flex-direction: column;
+		gap: 1rem;
+		
+	}
+	.testimonio-map>span{
+		color: var(--gray);
+		font-size: .7rem;
+	}
+	.testimonio-encabezado>*{
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+  }

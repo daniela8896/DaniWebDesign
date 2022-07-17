@@ -80,3 +80,32 @@
 	left: 18rem;
 	top: 8rem;
 }
+
+@media screen and (max-width: 480px) {
+	.clientes-contenedor {
+	  flex-direction: column;
+	  height: 65rem;
+	  padding: 0;
+	  gap: 3rem;
+	}
+  
+	.clientes-derecho {
+	  display: flex;
+	  align-items: flex-start;
+	  justify-content:start;
+	  transform: scale(0.6);
+	}
+	.clientes-circulo-principal{
+	  position: static;
+	}
+	.clientes-relleno-circulo{
+	  left: 8rem!important;
+	}
+	.servicios-title> span:nth-of-type(1){
+		font-size: 1.7rem;
+	}
+	.servicios-title> span:nth-of-type(2){
+		font-size: 1.7rem;
+	}
+  
+}
