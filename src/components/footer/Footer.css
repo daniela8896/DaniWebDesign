@@ -4,6 +4,9 @@
 	margin: -0.5rem -3.5rem;
 	position: relative;
 	margin-top: -7rem;
+	bottom: 0;
+	left: 0;
+	
 }
 
 .f-contenedor{
@@ -22,6 +25,10 @@
 	display: flex;
 	gap: 2rem;
 }
+.footer__links{
+	display: flex;
+ gap: 2rem;
+}
 
 @media screen and (max-width: 480px){
 	.f-contenedor{
@@ -29,7 +36,8 @@
 	}
 	.footer{
 		margin: -0.5rem -3.5rem;
-		position: relative;
+		left: 0;
+		bottom: 0;
 		margin-top: -5rem;
 	}
 	.f-contenedor{

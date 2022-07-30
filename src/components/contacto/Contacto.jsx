@@ -3,7 +3,8 @@ import { useState } from 'react';
 import './Contacto.css'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-export const Contacto = () => {
+
+const Contacto = () => {
 
 	const form = useRef();
 
@@ -51,3 +52,5 @@ export const Contacto = () => {
 	</div>
   )
 }
+
+export default Contacto

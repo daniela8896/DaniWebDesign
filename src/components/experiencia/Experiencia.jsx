@@ -4,8 +4,8 @@ import vector3 from '../../assets/img/Vector3.png'
 import vector2 from '../../assets/img/Vector2.png'
 import {motion} from 'framer-motion'
 
-export const Experiencia = () => {
-	const transition = {duration: 2, type: 'spring'}
+const Experiencia = () => {
+	
   return (
 	<section className='experiencia-contenedor'>
 		<div className="experiencia-principal grid1">
@@ -42,3 +42,5 @@ export const Experiencia = () => {
 	</section>
   )
 }
+
+export default Experiencia
